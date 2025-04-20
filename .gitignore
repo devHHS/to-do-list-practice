@@ -1,0 +1,22 @@
+# IntelliJ IDEA files
+backend/.idea/
+*.iml
+
+# Maven target directory for backend
+backend/target/
+
+# Spring Boot generated files
+*.log
+target/ # 혹시 루트에 target이 생길 경우 대비
+
+# Environment specific files (if any)
+# src/main/resources/application-local.properties # 예시: 로컬 개발 설정 파일 무시
+# application.properties # 민감 정보가 있다면 무시할 수도 있지만, 지금은 커밋 대상
+
+# Frontend specific ignores (나중에 추가)
+# frontend/node_modules/
+# frontend/dist/
+
+# Operating System files
+.DS_Store
+Thumbs.db
